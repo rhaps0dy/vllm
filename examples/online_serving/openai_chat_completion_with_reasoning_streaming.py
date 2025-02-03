@@ -50,6 +50,7 @@ response = requests.post(
         "messages": messages,
         "stream": True
     },
+    stream=True,
 )
 
 print("client: Start streaming chat completions...")
